@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 *::selection {
@@ -58,7 +59,7 @@ nav li {
 header p {
   background: #232A3B url("../images/header.jpg") no-repeat center;
   background-size: cover;
-  color: #e62d2d;
+  color: #fff;
   height: 300px;
   font-family: audiowide;
   font-size: 2.2em;
@@ -107,6 +108,10 @@ header p {
 
 .section-1 {
   margin-top: 50px;
+}
+
+.section-1-title{
+  color: #e62d2d;
 }
 
 .line {
@@ -338,6 +343,7 @@ button {
 .gyms-title {
   font-size: 1.8em;
   margin-top: 2em;
+  color: #e62d2d;
 }
 
 .gyms-container img {
@@ -375,6 +381,10 @@ button {
   padding: 5%;
 }
 
+.trainer-title{
+  color: #e62d2d;
+}
+
 .trainer-container section {
   transition: transform .5s;
 }
@@ -385,7 +395,6 @@ button {
 }
 
 .trainer-container h2 {
-  color: #fff;
   margin-bottom: 5%;
   text-align: center;
 }

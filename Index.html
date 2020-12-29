@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Audiowide|Roboto+Condensed" rel="stylesheet">
@@ -18,7 +18,7 @@
       <h1 class="fade-in wow" data-wow-delay=".5s"><a href="index.html">The <span class="title-color">Muscle</span> Factory</a></h1>
       <ul>
         <li class="fade-in wow" id="delay-1" data-wow-delay=".5s"><a href="index.html">Home</a></li>
-        <li class="fade-in wow" id="delay-2" data-wow-delay=".5s"><a href="gyms.html">Gyms</a></li>
+        <li class="fade-in wow" id="delay-2" data-wow-delay=".5s"><a href="gyms.html#main-content">Gyms</a></li>
         <li class="nav-end fade-in wow" id="delay-3" data-wow-delay=".5s"><a href="trainers.html">Trainers</a></li>
       </ul>
     </nav>
@@ -51,7 +51,7 @@
             <p>The Trainers at Muscle factory have over 10 years of experience in fitness. You'll get your pick of trainer to best fit your training style and personality.</p>
           </div>
           <!-- End of Item 2 -->
-          <div class="item-3 fade-in-wow" data-wow-delay=".5s">
+          <div class="item-3 fade-in wow" data-wow-delay=".5s">
             <i class="fas fa-user-clock fa-4x"></i>
             <h3>Best Programs</h3>
             <p>Courses engineered by top athletes from many sports all being thought by our instructors. To ensure you get the best training in the industry.</p>
@@ -63,6 +63,7 @@
           <!-- End of Main Containers -->
       </section>
       <!-- End of section one -->
+      
       <!-- Section two (Pricing) -->
       <section class="section-2">
       <div class="container">
@@ -160,5 +161,9 @@
         <a href="#top" class="back-to-top"><i class="fas fa-angle-up"></i></a>
       </footer>
       <!-- End of footer -->
+      <script src="./JS/wow.js"></script>
+      <script>
+        new WOW().init();
+      </script>
   </body>
 </html>
